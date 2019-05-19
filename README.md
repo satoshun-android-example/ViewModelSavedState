@@ -1,1 +1,1 @@
-# ViewPager2 sample code
+# SavedState sample code
