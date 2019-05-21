@@ -18,8 +18,8 @@ const val COROUTINE = "org.jetbrains.kotlinx:kotlinx-coroutines-core:$VCOUROUTIN
 const val UI_COROUTINE = "org.jetbrains.kotlinx:kotlinx-coroutines-android:$VCOUROUTINE"
 
 const val KTX = "androidx.core:core-ktx:1.1.0-alpha04"
-const val ACTIVITYX = "androidx.activity:activity-ktx:1.0.0-alpha03"
-const val FRAGMENTX = "androidx.fragment:fragment-ktx:1.1.0-alpha03"
+const val ACTIVITYX = "androidx.activity:activity-ktx:1.0.0-alpha08"
+const val FRAGMENTX = "androidx.fragment:fragment-ktx:1.1.0-alpha09"
 
 const val APPCOMPAT = "androidx.appcompat:appcompat:1.1.0-alpha02"
 const val RECYCLERVIEW = "androidx.recyclerview:recyclerview:1.1.0-alpha02"
@@ -78,6 +78,13 @@ const val CAMERAX = "androidx.camera:camera-camera2:1.0.0-alpha02"
 const val CAMERAX_VIEW = "androidx.camera:camera-view:1.0.0-alpha02"
 const val CAMERAX_EXTENSIONS = "androidx.camera:camera-extensions:1.0.0-alpha02"
 const val CAMERAX_EXTENSIONS_STUB = "androidx.camera:camera-extensions-stub:1.0.0-alpha02"
+
+private const val VDAGGER = "2.22.1"
+const val DAGGER_RUNTIME = "com.google.dagger:dagger:$VDAGGER"
+const val DAGGER_COMPILER = "com.google.dagger:dagger-compiler:$VDAGGER"
+const val DAGGER_ANDROID_RUNTIME = "com.google.dagger:dagger-android:$VDAGGER"
+const val DAGGER_ANDROID_COMPILER = "com.google.dagger:dagger-android-processor:$VDAGGER"
+const val DAGGER_ANDROID_SUPPORT_RUNTIME = "com.google.dagger:dagger-android-support:$VDAGGER"
 
 const val ANDROID_ANNOTATION = "androidx.annotation:annotation:1.0.0"
 

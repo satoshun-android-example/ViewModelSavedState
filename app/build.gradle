@@ -3,6 +3,7 @@ import static dependencies.DependenciesKt.*
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
 apply plugin: "com.github.ben-manes.versions"
 
 android {
@@ -37,4 +38,10 @@ dependencies {
   implementation MATERIAL
   implementation APPCOMPAT
   implementation CONSTRAINTLAYOUT
+
+  implementation DAGGER_RUNTIME
+  kapt DAGGER_COMPILER
+
+  implementation ACTIVITYX
+  implementation FRAGMENTX
 }
