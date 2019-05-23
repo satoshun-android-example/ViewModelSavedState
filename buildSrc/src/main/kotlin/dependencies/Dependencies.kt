@@ -86,6 +86,11 @@ const val DAGGER_ANDROID_RUNTIME = "com.google.dagger:dagger-android:$VDAGGER"
 const val DAGGER_ANDROID_COMPILER = "com.google.dagger:dagger-android-processor:$VDAGGER"
 const val DAGGER_ANDROID_SUPPORT_RUNTIME = "com.google.dagger:dagger-android-support:$VDAGGER"
 
+const val ASSISTED_RUNTIME = "com.squareup.inject:assisted-inject-annotations:0.4.0"
+const val ASSISTED_COMPILER = "com.squareup.inject:assisted-inject-processor:0.4.0"
+const val ASSISTED_DAGGER_RUNTIME = "com.squareup.inject:assisted-inject-annotations-dagger2:0.4.0"
+const val ASSISTED_DAGGER_COMPILER = "com.squareup.inject:assisted-inject-processor-dagger2:0.4.0"
+
 const val ANDROID_ANNOTATION = "androidx.annotation:annotation:1.0.0"
 
 const val JUNIT = "junit:junit:4.13-beta-1"

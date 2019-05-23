@@ -44,4 +44,9 @@ dependencies {
 
   implementation ACTIVITYX
   implementation FRAGMENTX
+
+  compileOnly ASSISTED_RUNTIME
+  kapt ASSISTED_COMPILER
+  compileOnly ASSISTED_DAGGER_RUNTIME
+  kapt ASSISTED_DAGGER_COMPILER
 }
