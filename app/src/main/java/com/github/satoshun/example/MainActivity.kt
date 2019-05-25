@@ -22,6 +22,11 @@ class MainActivity : AppCompatActivity() {
     viewModelWrapper(this) { factory3.create(it) }
   }
 
+  @Inject lateinit var viewModelFactory: ViewModelFactory
+  private val viewModel4 by viewModels<SavedStateViewModel4> {
+    viewModelFactory
+  }
+
   override fun onCreate(savedInstanceState: Bundle?) {
     AndroidInjection.inject(this)
     super.onCreate(savedInstanceState)
@@ -30,5 +35,6 @@ class MainActivity : AppCompatActivity() {
     viewModel.write()
     viewModel2.write()
     viewModel3.write()
+    viewModel4.write()
   }
 }

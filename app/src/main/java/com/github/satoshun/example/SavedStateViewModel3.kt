@@ -5,12 +5,6 @@ import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import com.squareup.inject.assisted.Assisted
 import com.squareup.inject.assisted.AssistedInject
-import com.squareup.inject.assisted.dagger2.AssistedModule
-import dagger.Module
-
-@AssistedModule
-@Module(includes = [AssistedInject_SavedStateViewModel3Module::class])
-interface SavedStateViewModel3Module
 
 class SavedStateViewModel3 @AssistedInject constructor(
   @Assisted private val state: SavedStateHandle,
