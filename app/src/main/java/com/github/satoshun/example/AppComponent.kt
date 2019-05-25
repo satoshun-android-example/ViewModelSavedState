@@ -17,7 +17,19 @@ interface AppComponent : AndroidInjector<App>
 @Module
 interface MainActivityModule {
   @ContributesAndroidInjector(
-    modules = [SavedStateViewModel3Module::class]
+    modules = [
+      MainActivityViewModel::class,
+      SavedStateViewModel3Module::class
+    ]
   )
   fun contributeMainActivity(): MainActivity
+}
+
+@Module
+interface MainActivityViewModel {
+//  @Binds @IntoMap
+//  @ViewModelKey(SavedStateViewModel4::class)
+//  fun bindSavedStateViewModel4(
+//    vm: SavedStateViewModel4
+//  ): SavedStateViewModelFactory
 }
