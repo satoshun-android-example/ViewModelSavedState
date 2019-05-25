@@ -41,6 +41,8 @@ dependencies {
 
   implementation DAGGER_RUNTIME
   kapt DAGGER_COMPILER
+  implementation DAGGER_ANDROID_RUNTIME
+  kapt DAGGER_ANDROID_COMPILER
 
   implementation ACTIVITYX
   implementation FRAGMENTX
