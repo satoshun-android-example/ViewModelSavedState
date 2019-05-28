@@ -79,7 +79,7 @@ const val CAMERAX_VIEW = "androidx.camera:camera-view:1.0.0-alpha02"
 const val CAMERAX_EXTENSIONS = "androidx.camera:camera-extensions:1.0.0-alpha02"
 const val CAMERAX_EXTENSIONS_STUB = "androidx.camera:camera-extensions-stub:1.0.0-alpha02"
 
-private const val VDAGGER = "2.22.1"
+private const val VDAGGER = "2.23"
 const val DAGGER_RUNTIME = "com.google.dagger:dagger:$VDAGGER"
 const val DAGGER_COMPILER = "com.google.dagger:dagger-compiler:$VDAGGER"
 const val DAGGER_ANDROID_RUNTIME = "com.google.dagger:dagger-android:$VDAGGER"
