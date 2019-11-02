@@ -3,13 +3,13 @@ package com.github.satoshun.example
 import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
-import androidx.lifecycle.SavedStateVMFactory
+import androidx.lifecycle.SavedStateViewModelFactory
 import dagger.android.AndroidInjection
 import javax.inject.Inject
 
 class MainActivity : AppCompatActivity() {
   private val viewModel by viewModels<SavedStateViewModel> {
-    SavedStateVMFactory(this)
+    SavedStateViewModelFactory(application, this)
   }
 
   @Inject lateinit var factory2: SavedStateViewModel2.Factory

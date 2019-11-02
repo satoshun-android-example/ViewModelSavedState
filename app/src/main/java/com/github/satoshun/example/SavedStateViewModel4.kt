@@ -12,7 +12,7 @@ class SavedStateViewModel4 @AssistedInject constructor(
 ) : ViewModel() {
 
   @AssistedInject.Factory
-  interface Factory : SavedStateViewModelFactory {
+  interface Factory : SavedStateVMFactory {
     override fun create(state: SavedStateHandle): SavedStateViewModel4
   }
 

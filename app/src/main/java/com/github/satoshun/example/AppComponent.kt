@@ -37,5 +37,5 @@ interface MainActivityViewModel {
   @IntoMap @Binds
   fun bind(
     factory: SavedStateViewModel4.Factory
-  ): SavedStateViewModelFactory
+  ): SavedStateVMFactory
 }
