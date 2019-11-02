@@ -28,7 +28,6 @@ dependencies {
   implementation project(':common')
 
   implementation SAVEDSTATE
-//  implementation SAVEDSTATE_BUNDLE
   implementation SAVEDSTATE_VIEWMODEL
 
   implementation VIEWMODEL
