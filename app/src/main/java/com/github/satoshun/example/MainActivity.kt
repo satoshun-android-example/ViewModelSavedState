@@ -27,6 +27,8 @@ class MainActivity : AppCompatActivity() {
     viewModelFactory
   }
 
+  @Inject lateinit var viewModel5: SavedStateViewModel5
+
   override fun onCreate(savedInstanceState: Bundle?) {
     AndroidInjection.inject(this)
     super.onCreate(savedInstanceState)
