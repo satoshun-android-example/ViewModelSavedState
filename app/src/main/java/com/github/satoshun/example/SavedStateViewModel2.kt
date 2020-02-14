@@ -13,7 +13,7 @@ class SavedStateViewModel2(
 ) : ViewModel() {
   class Factory @Inject constructor(private val dummy: Dummy) {
     fun create(owner: FragmentActivity): AbstractSavedStateViewModelFactory {
-      return object : AbstractSavedStateViewModelFactory(owner, owner.intent.extras) {
+      return object : AbstractSavedStateViewModelFactory(owner, owner.intent?.extras) {
         override fun <T : ViewModel> create(
           key: String,
           modelClass: Class<T>,
